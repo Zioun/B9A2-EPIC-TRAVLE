@@ -1,5 +1,8 @@
 /* font mulish */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+:root{
+    --org-color: #FF5400;
+}
 *{
     padding: 0;
     margin: 0;
@@ -45,6 +48,144 @@
     width: 174px;
     height: 52px;
     border-radius: 8px;
-    background: #FF5400;
+    background: var(--org-color);
     border: none;
 }
+/* common classes end */
+/* header section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo_area{
+    display: flex;
+    align-items: center;
+}
+nav .logo_area h1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav .logo_area span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav .items_area{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+nav .items_area li{
+    list-style: none;
+}
+nav .items_area li:hover a{
+    color: #FF5400;
+}
+nav .items_area li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+/* header section end */
+/* popular section start */
+.popular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.popular_content{
+    width: 50%;
+}
+.popular_content p{
+    margin: 24px 0;
+}
+.popular_content li{
+    margin-bottom: 16px;
+}
+.popular_image{
+    width: 50%;
+}
+.popular_image img{
+    width: 100%;
+}
+/* popular section end */
+/* choose section start */
+.choose_card_area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.choose_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 0px 32px;
+    width: 48.9%;
+}
+.choose_card img{
+    width: 64px;
+    height: 64px;
+}
+.choose_card h1{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.choose_card p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* choose section end */
+/* video section start */
+.video{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.video_content{
+    width: 50%;
+}
+.video_content p{
+    margin: 24px 0;
+}
+.video_content li{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.video_video{
+    width: 50%;
+}
+.video_video video{
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+/* video section end */
