@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 /* font inter */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+.dn{
+    display: none !important;
+}
 
 :root{
     --org-color: #FF5400;
@@ -150,7 +154,31 @@ nav .items_area li a{
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
 }
-.hero_area .hero_form input{
+
+.hero_area .hero_form_input{
+    position: relative;
+    width: 100%;
+}
+
+.hero_area .hero_form_input span{
+    position: absolute;
+    content: none;
+    top: 33%;
+    right: 6px;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    color: #131318B2;
+}
+
+.hero_area .hero_form_input.form-btn span{
+    color: #FFF;
+    left: 15px;
+
+}
+
+.hero_area .hero_form .hero_form_input input{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -162,8 +190,7 @@ nav .items_area li a{
     width: 100%;
 }
 
-.hero_area .hero_form select{
-    position: relative;
+.hero_area .hero_form .hero_form_input select{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -179,20 +206,12 @@ nav .items_area li a{
     text-indent: 1px;
     text-overflow: '';
     overflow: hidden;
+    color: rgba(19, 19, 24, 0.50);
 }
 
-.hero_area .hero_form select::after{
-    position: absolute;
-    content: none;
-    top: 0;
-    left: 0;
-    height: 30px;
-    width: 30px;
-    background-color: green;
-    z-index: 9;
-}
 
-.hero_area .hero_form input[type='submit']{
+
+.hero_area .hero_form .hero_form_input input[type='submit']{
     position: relative;
     font-size: 16px;
     font-style: normal;
@@ -374,11 +393,13 @@ nav .items_area li a{
 }
 .deals_card_area-one{
     background-image: url("../images/deals-1.png");
-    height: 500px;
+    min-height: 500px;
     padding-top: 56px;
     margin-bottom: 24px;
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
+    border-radius: 16px;
+    overflow: hidden;
 
 }
 .deals_card_area-one .deals_card_inner{
@@ -389,7 +410,8 @@ nav .items_area li a{
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     padding: 50px 10px 0px 50px;
-    margin-left: 46%;
+    margin-left: auto;
+    margin-right: 56px;
     padding-bottom: 55px;
 }
 .deals_card_area-one .card_title_info{
@@ -435,11 +457,13 @@ nav .items_area li a{
 /* card area two */
 .deals_card_area-two{
     background-image: url("../images/deals-2.png");
-    height: 500px;
+    min-height: 500px;
     padding-top: 56px;
     margin-bottom: 24px;
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
+    border-radius: 16px;
+    overflow: hidden;
 }
 .deals_card_area-two .deals_card_inner{
     width: 579px;
@@ -769,6 +793,12 @@ footer hr{
     .news_letter_image h2 {
         font-size: 35px;
     }
+    .deals_card_area-one .deals_card_inner{
+        margin: 0 auto;
+    }
+    .deals_card_area-two .deals_card_inner{
+        margin: 0 auto;
+    }
 }
 /* media query 1024px break point end*/
 /* media query 768px break point start*/
@@ -900,6 +930,37 @@ footer hr{
     }
     .news_letter_image h2 {
         font-size: 21px;
+    }
+    .deals_content p {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .deals_card_area-one{
+        padding: 0 16px 16px 16px;
+    }
+    .deals_card_area-one .deals_card_inner{
+        width: 100%;
+        padding: 25px 25px;
+        height: auto;
+        margin-top: 106px;
+    }
+    .deals_card_area-one .card_title_info{
+        row-gap: 16px;
+        flex-wrap: wrap;
+    }
+    .deals_card_area-two{
+        padding: 0 16px 16px 16px;
+    }
+    .deals_card_area-two .deals_card_inner{
+        width: 100%;
+        padding: 25px 25px;
+        height: auto;
+        margin-top: 106px;
+    }
+    
+    .deals_card_area-two .card_title_info{
+        row-gap: 16px;
+        flex-wrap: wrap;
     }
     .footer_logo{
         padding-top: 32px;
