@@ -348,12 +348,23 @@ nav .items_area li a{
 /* choose section end */
 /* deals section start */
 .deals{
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 76px;
+}
+.deals_content{
+    max-width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
+.deals_content p{
+    margin-top: 24px;
+    margin-bottom: 48px;
 }
 .deals_card_area-one{
     background-image: url("../images/deals-1.png");
     height: 500px;
     padding-top: 56px;
+    margin-bottom: 24px;
 }
 .deals_card_area-one .deals_card_inner{
     width: 579px;
@@ -411,6 +422,7 @@ nav .items_area li a{
     background-image: url("../images/deals-2.png");
     height: 500px;
     padding-top: 56px;
+    margin-bottom: 24px;
 }
 .deals_card_area-two .deals_card_inner{
     width: 579px;
@@ -501,6 +513,7 @@ nav .items_area li a{
     justify-content: space-between;
     align-items: center;
     gap: 24px;
+    margin-bottom: 100px;
 }
 .news_letter_content{
     border-radius: 16px;
