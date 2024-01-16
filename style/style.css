@@ -825,6 +825,7 @@ footer hr{
     }
     .hero{
         height: 540px;
+        margin-bottom: 24px;
     }
     .hero_area h1{
         font-size: 22px;
@@ -839,12 +840,14 @@ footer hr{
         flex-direction: column;
         margin: 0 24px;
     }
+    .hero_area .hero_form_input.form-btn span {
+        color: #FFF;
+        left: 66px;
+    }
     .section_title{
         font-size: 20px;
     }
-    .hero{
-        margin-bottom: 24px;
-    }
+    
     .popular_content p{
         margin: 16px 0;
     }
@@ -930,6 +933,10 @@ footer hr{
     }
     .news_letter_image h2 {
         font-size: 21px;
+    }
+    .deals {
+        margin-top: 0px;
+        margin-bottom: 24px;
     }
     .deals_content p {
         margin-top: 16px;
