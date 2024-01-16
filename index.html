@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic Travel</title>
+    <!-- css link -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header section start -->
@@ -12,7 +15,7 @@
         <!-- nav section start -->
         <nav>
             <div class="logo_area">
-                <img src="images/nav_logo.png" alt="logo image">
+                <img src="images/logo.png" alt="logo image">
                 <h1>Epic <span>Travel</span></h1>
             </div>
             <div class="items_area">
@@ -24,151 +27,242 @@
             </div>
         </nav>
         <!-- nav section end -->
+        <!-- hero section start -->
+        <section class="hero">
+            <div class="hero_area">
+                <h1>Explore Your Travel</h1>
+                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                <div class="hero_form">
+                    <input type="text" placeholder="Where go">
+                    <select name="" id="">
+                        <option value="where">Where</option>
+                        <option value="Maldives">Maldives</option>
+                        <option value="North America">North America</option>
+                        <option value="Kashmir">Kashmir</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Bandarban">Bandarban</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="where">Select Type</option>
+                        <option value="Business">Business</option>
+                        <option value="Education">Education</option>
+                        <option value="Visit">Visit</option>
+                    </select>
+                    <input type="submit" value="Find Now">
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
     </header>
     <!-- header section end -->
-    <!-- popular section start -->
-    <section class="popular container">
-        <div class="popular_content">
-            <h1 class="section_title">Our Popular Tours</h1>
-            <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-            <li class="section_para">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-            <li class="section_para">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-            <li class="section_para"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-            <p class="section_para">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
-            <button class="button">Read More</button>
-        </div>
-        <div class="popular_image">
-            <img src="images/popular.png" alt="popular">
-        </div>
-    </section>
-    <!-- popular section end -->
-    <!-- choose section start-->
-    <section class="choose container">
-        <h1 class="section_title">Why Choose Us</h1>
-        <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-        <div class="choose_card_area">
-            <div class="choose_card">
-                <img src="icons/hotel.svg" alt="choose">
-                <h1 class="small_title">Handpicked Hotels</h1>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+    <!-- main start -->
+    <main>
+         <!-- popular section start -->
+        <section class="popular container">
+            <div class="popular_content">
+                <h1 class="section_title">Our Popular Tours</h1>
+                <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <li class="section_para">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                <li class="section_para">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                <li class="section_para"> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                <p class="section_para">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+                <button class="button">Read More</button>
             </div>
-            <div class="choose_card">
-                <img src="icons/hotel.svg" alt="choose">
-                <h1 class="small_title">Handpicked Hotels</h1>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+            <div class="popular_image">
+                <img src="images/popular.png" alt="popular">
             </div>
-            <div class="choose_card">
-                <img src="icons/hotel.svg" alt="choose">
-                <h1 class="small_title">Handpicked Hotels</h1>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+        </section>
+        <!-- popular section end -->
+        <!-- destination section start -->
+        <section class="destination container">
+            <div class="destination_content">
+                <h2 class="section_title">Choose Your Destination</h2>
+                <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
             </div>
-        </div>
-    </section>
-    <!-- choose section end -->
-    <!-- video section start -->
-    <section class="video container">
-        <div class="video_content container">
-            <h1 class="section_title">A Simple Perfect Place To Get Lost</h1>
-            <p class="section_para">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.</p>
-            <li class="section_para">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-            <li class="section_para">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-        </div>
-        <div class="video_video">
-            <video controls src="video/travel.mp4"></video>
-        </div>
-    </section>
-    <!-- video section end -->
-    <!-- news letter section start -->
-    <section class="news_letter container">
-        <div class="news_letter_content">
-            <div class="news_letter_content_area">
-                <h2 class="small_title">Newsletter</h2>
-                <p class="section_para">Get your daily dose of travel news & tips. Sign up today!</p>
+            <div class="destination_area">
+                <div class="destination_item">
+                    <img src="images/maldives.png" alt="maldives">
+                    <h5>Maldives</h5>
+                </div>
+                <div class="destination_item">
+                    <img src="images/indonesia.png" alt="indonesia">
+                    <h5>Indonesia</h5>
+                </div>
+                <div class="destination_item">
+                    <img src="images/srilanka.png" alt="srilanka">
+                    <h5>Srilanka</h5>
+                </div>
+                <div class="destination_item">
+                    <img src="images/north-america.png" alt="north-america">
+                    <h5>North America</h5>
+                </div>
+                <div class="destination_item">
+                    <img src="images/kashmir.png" alt="kashmir">
+                    <h5>Kashmir</h5>
+                </div>
+                <div class="destination_item">
+                    <img src="images/bangladesh.png" alt="bangladesh">
+                    <h5>Bangladesh</h5>
+                </div>
+                <div class="destination_item">
+                    <img src="images/bandarban.png" alt="bandarban">
+                    <h5>Bandarban</h5>
+                </div>
+            </div>
+        </section>
+        <!-- destination section end -->
+        <!-- choose section start-->
+        <section class="choose container">
+            <div class="choose_content">
+                <h1 class="section_title">Why Choose Us</h1>
+                <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+            <div class="choose_card_area">
+                <div class="choose_card">
+                    <img src="icons/hotel.svg" alt="choose">
+                    <h1 class="small_title">Handpicked Hotels</h1>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                </div>
+                <div class="choose_card">
+                    <img src="icons/hotel.svg" alt="choose">
+                    <h1 class="small_title">Handpicked Hotels</h1>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                </div>
+                <div class="choose_card">
+                    <img src="icons/hotel.svg" alt="choose">
+                    <h1 class="small_title">Handpicked Hotels</h1>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                </div>
+            </div>
+        </section>
+        <!-- choose section end -->
+        <!-- deals section start-->
+        <section class="deals container">
+            <div class="deals_content">
+                <h1 class="section_title">Deals & Discounts</h1>
+                <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            </div>
+            <div class="deals_card_area-one">
+                <div class="deals_card_inner">
+                    <div class="card_title_info">
+                        <div class="item">
+                            <img src="icons/time.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                        <div class="item">
+                            <img src="icons/people.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                        <div class="item">
+                            <img src="icons/location.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h2 class="small_title">Tour To Satorini</h2>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h3>Price: $1300-$1500</h3>
+                        <button class="button">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="deals_card_area-two">
+                <div class="deals_card_inner">
+                    <div class="card_title_info">
+                        <div class="item">
+                            <img src="icons/time.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                        <div class="item">
+                            <img src="icons/people.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                        <div class="item">
+                            <img src="icons/location.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h2 class="small_title">Tour To Satorini</h2>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h3>Price: $1300-$1500</h3>
+                        <button class="button">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="deals_card_area-one">
+                <div class="deals_card_inner">
+                    <div class="card_title_info">
+                        <div class="item">
+                            <img src="icons/time.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                        <div class="item">
+                            <img src="icons/people.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                        <div class="item">
+                            <img src="icons/location.svg" alt=""><span>7 Day / 6 Night</span>
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h2 class="small_title">Tour To Satorini</h2>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h3>Price: $1300-$1500</h3>
+                        <button class="button">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- deals section end -->
+        <!-- video section start -->
+        <section class="video container">
+            <div class="video_content container">
+                <h1 class="section_title">A Simple Perfect Place To Get Lost</h1>
+                <p class="section_para">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.</p>
+                <li class="section_para">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                <li class="section_para">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+            </div>
+            <div class="video_video">
+                <video controls src="video/travel.mp4"></video>
+            </div>
+        </section>
+        <!-- video section end -->
+        <!-- news letter section start -->
+        <section class="news_letter container">
+            <div class="news_letter_content">
+                <div class="news_letter_content_area">
+                    <h2 class="small_title">Newsletter</h2>
+                    <p class="section_para">Get your daily dose of travel news & tips. Sign up today!</p>
+                    <hr>
+                    <form>
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your email">
+                        <input type="submit" value="Subscribe"></input>
+                    </form>
+                </div>
+            </div>
+            <div class="news_letter_image">
+                <img src="images/news_letter.png" alt="news letter">
+                <div class="badge">
+                    <h3>Travel.com</h3>
+                    <h2>Save up to 70%</h2>
+                </div>
+            </div>
+        </section>
+        <!-- news letter section end -->
+    </main>
+    <!-- main end -->
+    <!-- footer section start -->
+    <footer>
+        <section class="footer container">
+            <div class="footer_logo">
+                <img src="images/logo.png" alt="logo hero travel">
+                <h2>Hero <span>Travel</span></h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
                 <hr>
-                <form>
-                    <input type="text" placeholder="Enter your name">
-                    <input type="email" placeholder="Enter your email">
-                    <input type="submit" value="Subscribe"></input>
-                </form>
-            </div>
-        </div>
-        <div class="news_letter_image">
-            <img src="images/news_letter.png" alt="news letter">
-            <div class="badge">
-                <h3>Travel.com</h3>
-                <h2>Save up to 70%</h2>
-            </div>
-        </div>
-    </section>
-    <!-- news letter section end -->
-    <!-- deals section start-->
-    <section class="deals container">
-        <h1 class="section_title">Deals & Discounts</h1>
-        <p class="section_para">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-        <div class="deals_card_area-one">
-            <div class="deals_card_inner">
-                <div class="card_title_info">
-                    <div class="item">
-                        <img src="icons/time.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                    <div class="item">
-                        <img src="icons/people.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                    <div class="item">
-                        <img src="icons/location.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                </div>
-                <div class="card_content">
-                    <h2 class="small_title">Tour To Satorini</h2>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                    <h3>Price: $1300-$1500</h3>
-                    <button class="button">Book Now</button>
-                </div>
-            </div>
-        </div>
-        <div class="deals_card_area-two">
-            <div class="deals_card_inner">
-                <div class="card_title_info">
-                    <div class="item">
-                        <img src="icons/time.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                    <div class="item">
-                        <img src="icons/people.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                    <div class="item">
-                        <img src="icons/location.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                </div>
-                <div class="card_content">
-                    <h2 class="small_title">Tour To Satorini</h2>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                    <h3>Price: $1300-$1500</h3>
-                    <button class="button">Book Now</button>
-                </div>
-            </div>
-        </div>
-        <div class="deals_card_area-one">
-            <div class="deals_card_inner">
-                <div class="card_title_info">
-                    <div class="item">
-                        <img src="icons/time.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                    <div class="item">
-                        <img src="icons/people.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                    <div class="item">
-                        <img src="icons/location.svg" alt=""><span>7 Day / 6 Night</span>
-                    </div>
-                </div>
-                <div class="card_content">
-                    <h2 class="small_title">Tour To Satorini</h2>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                    <h3>Price: $1300-$1500</h3>
-                    <button class="button">Book Now</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- deals section end -->
+                <h6>2017, All Rights Reserved.</h6>
+        </section>
+    </footer>
+    <!-- footer section end -->
 </body>
 </html>
