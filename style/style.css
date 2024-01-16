@@ -666,6 +666,7 @@ footer{
 footer hr{
     max-width: 872px;
     margin: 50px auto;
+    opacity: 0.3;
 }
 .footer h6{
     color: #131318;
@@ -687,6 +688,12 @@ footer hr{
     }
     .choose_card {
         width: 47.9%;
+    }
+    .news_letter_content{
+        width: 50%;
+    }
+    .news_letter_image {
+        width: 40%;
     }
 }
 /* media query 1200px break point end*/
@@ -717,6 +724,17 @@ footer hr{
     .choose_card {
         padding: 159px 32px;
     }
+    .video {
+        flex-direction: column;
+    }
+    .video_content {
+        width: 100%;
+    }
+    .video_video {
+        width: 100%;
+    }
+    
+    
     
 }
 /* media query 1024px break point end*/
@@ -820,6 +838,28 @@ footer hr{
     .choose_card {
         padding: 115px 32px;
     }
-
+    .video{
+        margin-bottom: 24px;
+    }
+    .video_content p {
+        margin: 16px 0;
+    }
+    .video_content li {
+        font-size: 14px;
+        margin-bottom: 16;
+    }
+    .footer_logo{
+        padding-top: 32px;
+    }
+    .footer_logo img {
+        height: 28.724px;
+        width: 33.516px;
+    }
+    .footer_logo h2 {
+        font-size: 21px;
+    } 
+    .footer h6 {
+        padding-bottom: 36px;
+    }
 }
 /* media query 768px break point end*/
