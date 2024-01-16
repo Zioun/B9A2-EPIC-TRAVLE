@@ -317,6 +317,14 @@ nav .items_area li a{
     flex-wrap: wrap;
     gap: 24px;
 }
+.choose_card_area .choose_card:nth-child(2){
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose_card_area .choose_card:nth-child(3){
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
 .choose_card{
     display: flex;
     flex-direction: column;
