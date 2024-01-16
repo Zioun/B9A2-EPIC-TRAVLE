@@ -842,7 +842,7 @@ footer hr{
     }
     .hero_area .hero_form_input.form-btn span {
         color: #FFF;
-        left: 66px;
+        left: calc(50% - 55px);
     }
     .section_title{
         font-size: 20px;
