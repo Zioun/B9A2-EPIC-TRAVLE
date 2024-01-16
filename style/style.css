@@ -60,6 +60,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 50px 0;
 }
 nav .logo_area{
@@ -73,11 +74,11 @@ nav .logo_area h1{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-left: 17px;
 }
 nav .logo_area span{
     color: #FF5400;
     font-family: Mulish;
-    font-size: 36px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -103,6 +104,9 @@ nav .items_area li a{
     font-weight: 400;
     line-height: normal;
 
+}
+.hamburger{
+    display: none;
 }
 /* hero section start */
 .hero{
@@ -667,3 +671,103 @@ footer hr{
     line-height: normal;
 }
 /* footer section end */
+
+/* media query 1200px break point start*/
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 970px;
+    }
+}
+/* media query 1200px break point end*/
+
+/* media query 1024px break point start*/
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 740px;
+    }
+    .hamburger{
+        display: block;
+    }
+    nav .items_area{
+        display: none;
+    }
+    .popular {
+        flex-direction: column;
+    }
+    .popular_content{
+        width: 100%;
+    }
+    .popular_image{
+        width: 100%;
+    }
+}
+/* media query 1024px break point end*/
+/* media query 768px break point start*/
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 500px;
+        padding: 0 20px;
+    }
+    nav {
+        margin: 18px 0;
+    }
+    .logo_area img{
+        height: 28.724px;
+        width: 33.516px;
+    }
+    .logo_area h1{
+        font-size: 21.543px !important;
+    }
+    .hero{
+        height: 540px;
+    }
+    .hero_area h1{
+        font-size: 22px;
+        margin-top: 0px;
+    }
+    .hero_area p{
+        margin-top: 8px;
+        margin-bottom: 32px;
+        padding: 0 16px;
+    }
+    .hero_area .hero_form{
+        flex-direction: column;
+        margin: 0 24px;
+    }
+    .section_title{
+        font-size: 20px;
+    }
+    .hero{
+        margin-bottom: 24px;
+    }
+    .popular_content p{
+        margin: 16px 0;
+    }
+    .popular_content li{
+        margin-bottom: 12px;
+    }
+    .button{
+        width: 174px;
+        height: 52px;
+    }
+    .popular{
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    .destination_content p {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .destination_area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        margin-bottom: 100px;
+    }
+    .destination_item{
+        grid-column: auto / span 7 !important;
+    }
+    
+
+}
+/* media query 768px break point end*/
