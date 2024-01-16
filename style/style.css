@@ -219,6 +219,8 @@ nav .items_area li a{
     margin-bottom: 24px;
 }
 .news_letter_content form input{
+    width: 100%;
+    background: #FF5400;
     color: rgba(19, 19, 24, 0.30);
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
@@ -229,6 +231,17 @@ nav .items_area li a{
     line-height: normal;
     padding-left: 20px;
     border: none;
+}
+.news_letter_content form input[type = submit]{
+    width: 100%;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .news_letter_image{
     position: relative;
